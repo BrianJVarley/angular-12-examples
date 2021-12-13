@@ -13,6 +13,6 @@ export class BackendApiService {
   constructor(private httpClient: HttpClient) {}
 
   getHeroes(): Observable<object> {
-    return this.httpClient.get('/api/');
+    return this.httpClient.get('/api/v1/people');
   }
 }
