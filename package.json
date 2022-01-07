@@ -7,7 +7,7 @@
     "start:proxy": "ng serve --proxy-config ./proxy.conf.json",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test",
+    "test": "ng test angular-tour-of-heroes",
     "dev": "lite-server --baseDir='dist/angular-tour-of-heroes'"
   },
   "private": true,

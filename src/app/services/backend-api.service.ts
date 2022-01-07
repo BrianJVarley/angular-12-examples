@@ -15,4 +15,9 @@ export class BackendApiService {
   getHeroes(): Observable<object> {
     return this.httpClient.get('/api/v1/people');
   }
+
+  logSomething(): boolean {
+    console.log('mock logger');
+    return true;
+  }
 }
