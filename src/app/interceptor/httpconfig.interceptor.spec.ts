@@ -5,7 +5,7 @@ import { BackendApiService } from '../services/backend-api.service';
 
 import { HttpConfigInterceptor } from './httpconfig.interceptor';
 
-fdescribe('HttpconfigInterceptor', () => {
+describe('HttpconfigInterceptor', () => {
   let mockBackendServiceSpy: any;
   mockBackendServiceSpy = jasmine.createSpyObj(['logSomething']);
 
